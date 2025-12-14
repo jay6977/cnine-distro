@@ -1,0 +1,31 @@
+{
+  "$schema": "file:///D:/helios/CNINE/distro/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "씨나인",
+    "description": "cnine Running Minecraft 1.21.4 (Fabric v0.18.2)",
+    "icon": "https://raw.githubusercontent.com/jay6977/cnine-distro/main/serverIMG",
+    "address": "220.79.201.74",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "fabric": {
+    "version": "0.18.2"
+  },
+  "untrackedFiles": [
+	{
+		"appliesTo": ["files"],
+		"patterns": [
+		  "options.txt",
+		  "config/*",
+		  "config/**/*",
+		  "servers.dat"
+		]
+	}
+  ]
+}
